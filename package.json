@@ -1,0 +1,23 @@
+{
+  "name": "fn-call-recorder",
+  "description": "record calls to a function and replay it back when needed-during tests for example",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Jiri Spac",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OndrejKuchta/appshop-frontend.git"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node node_modules/grunt-cli/bin/grunt",
+    "test": "node node_modules/grunt-cli/bin/grunt test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+	"nodeunit": "~0.9"
+  }
+}
